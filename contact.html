@@ -10,35 +10,35 @@
     <script src="main.js"></script>
 </head>
 <body>
+    <img id="background" src="assets/images/prism.png" alt="">
+    <div id="banner"></div>
     <header>
+        
         <div id="alex">
             <h1>Alex Lilly</h1>
         </div>
-        
         <ul id="nav">
-            <li>About</li>
-            <li>Portfolio</li>
-            <li>Contact</li>   
-        </ul>
-        
+            <li><a href="index.html">About</a></li>|
+            <li><a href="portfolio.html">Portfolio</a></li>|
+            <li><a href="contact.html">Contact</a></li>   
+        </ul>   
     </header>
-    <div class="background">
-        <div class="content">
-            <h2>Contact</h2>
-            <hr>
-            <br>
-            <form>
-                <p>Name</p>
-                <input type="text" name="name">
-                <p>Email</p>
-                <input type="text" name="email">
-                <p>Message</p>
-                <textarea name="message" id="message"></textarea>
-            </form>
-
-            <button>Submit</button>
-        </div>
+        
+    <div class="content">
+        <h2 class="heading">Contact</h2>
+        <hr>
+        <form>
+            <p id="name">Name</p>
+            <input type="text" name="name" placeholder="John Doe">
+            <p id="email">Email</p>
+            <input type="text" name="email" placeholder="example@gmail.com">
+            <p id="message">Message</p>
+            <textarea name="message"></textarea>
+        </form>
+        <button>Submit</button>
     </div>
+
     <footer>©Alex Lilly 2019</footer>
+
 </body>
 </html>
